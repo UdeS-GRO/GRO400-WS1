@@ -7,7 +7,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendi
 def is_vowel(letter):
     assert(len(letter) == 1)
     return letter.lower() in ['a', 'e', 'i', 'o', 'u', 'y']
-
+    #Vérifier si la shit mache
+    print("Motherfucker")
 if __name__ == "__main__":
 
     words = full_text.split()
